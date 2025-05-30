@@ -61,7 +61,7 @@ Ce script **simule dynamiquement des données** d’arrivée de bus :
 Ouvre un navigateur web et accède à l’adresse :
 
 http://localhost:5000
--📊 Description de l’interface
+- 📊 Description de l’interface
 Affiche un panneau d’arrivée pour la station Madinat Al Irfane.
 
 Liste jusqu’à 4 bus avec leur numéro de ligne et leur temps estimé d’arrivée (ETA) en minutes.
@@ -75,6 +75,7 @@ Seuls les bus dont l’ETA a changé significativement sont rafraîchis, afin d�
 - `pip install flask flask-cors`
 
 ### ▶️ Exécution du backend
+
 
 ```bash
 cd backend
