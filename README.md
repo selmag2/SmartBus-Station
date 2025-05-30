@@ -49,3 +49,7 @@ Génère des bus avec identifiants (bus_id), lignes (line) et ETA.
 
 Peut être exécuté en arrière-plan pour simuler un flux de données.
 
+## Objectif 
+L'objectif est de modéliser un système proche de la réalité, alliant interface utilisateur intuitive, communication en temps réel et traitement intelligent des données, dans le but de démontrer les capacités d’un système embarqué de nouvelle génération dédié à l'information des voyageurs.
+
+
