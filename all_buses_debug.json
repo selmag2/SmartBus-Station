@@ -1,0 +1,114 @@
+{
+  "buses": [
+    {
+      "bus_id": "BUS001",
+      "route": "L34",
+      "lat": 33.98142067155431,
+      "lon": -6.870390631855449,
+      "speed_kmh": 17.4902209826688,
+      "eta_minutes": null,
+      "stuck_counter": 0,
+      "statut": "Arriv\u00e9",
+      "arrival_counter": 92
+    },
+    {
+      "bus_id": "BUS002",
+      "route": "L41",
+      "lat": 33.983247330435,
+      "lon": -6.871071448832418,
+      "speed_kmh": 20.89747498023239,
+      "eta_minutes": null,
+      "stuck_counter": 0,
+      "statut": "Arriv\u00e9",
+      "arrival_counter": 111
+    },
+    {
+      "bus_id": "BUS003",
+      "route": "L42",
+      "lat": 33.984798902218664,
+      "lon": -6.871969516411648,
+      "speed_kmh": 25.134332502946286,
+      "eta_minutes": null,
+      "stuck_counter": 0,
+      "statut": "Arriv\u00e9",
+      "arrival_counter": 112
+    },
+    {
+      "bus_id": "BUS004",
+      "route": "L13",
+      "lat": 33.98095124898208,
+      "lon": -6.870265684357184,
+      "speed_kmh": 17.01324344983491,
+      "eta_minutes": null,
+      "stuck_counter": 0,
+      "statut": "Arriv\u00e9",
+      "arrival_counter": 108
+    },
+    {
+      "bus_id": "BUS005",
+      "route": "L1",
+      "lat": 33.98524247885025,
+      "lon": -6.877309407190834,
+      "speed_kmh": 28.621882981718215,
+      "eta_minutes": null,
+      "stuck_counter": 0,
+      "statut": "Arriv\u00e9",
+      "arrival_counter": 87
+    },
+    {
+      "bus_id": "BUS006",
+      "route": "L25",
+      "lat": 33.981747688108435,
+      "lon": -6.875264700834573,
+      "speed_kmh": 20.25033564389011,
+      "eta_minutes": null,
+      "stuck_counter": 0,
+      "statut": "Arriv\u00e9",
+      "arrival_counter": 90
+    },
+    {
+      "bus_id": "BUS007",
+      "route": "L23",
+      "lat": 33.979163528048694,
+      "lon": -6.876453638056762,
+      "speed_kmh": 31.608037399461764,
+      "eta_minutes": null,
+      "stuck_counter": 0,
+      "statut": "Arriv\u00e9",
+      "arrival_counter": 109
+    },
+    {
+      "bus_id": "BUS008",
+      "route": "L39",
+      "lat": 33.9823666969631,
+      "lon": -6.880048139869138,
+      "speed_kmh": 29.62357634384135,
+      "eta_minutes": null,
+      "stuck_counter": 0,
+      "statut": "Arriv\u00e9",
+      "arrival_counter": 112
+    },
+    {
+      "bus_id": "BUS009",
+      "route": "L38",
+      "lat": 33.98384526776109,
+      "lon": -6.87471272474864,
+      "speed_kmh": 15.102489372590917,
+      "eta_minutes": null,
+      "stuck_counter": 0,
+      "statut": "Arriv\u00e9",
+      "arrival_counter": 74
+    },
+    {
+      "bus_id": "BUS010",
+      "route": "L5",
+      "lat": 33.980469646812836,
+      "lon": -6.872080419231634,
+      "speed_kmh": 31.45838062128454,
+      "eta_minutes": null,
+      "stuck_counter": 0,
+      "statut": "Arriv\u00e9",
+      "arrival_counter": 106
+    }
+  ]
+}

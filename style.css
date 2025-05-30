@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  color: #00ffcc;
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  background: #111;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.4);
+}
+
+h1 {
+  text-align: center;
+  color: #00ffff;
+  font-size: 2em;
+  margin-bottom: 30px;
+  text-shadow: 0 0 10px #00ffff;
+  letter-spacing: 1px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.2em;
+}
+
+th, td {
+  padding: 16px;
+  text-align: center;
+  border-bottom: 1px solid #00cccc;
+}
+
+th {
+  background-color: #003b44;
+  color: #00ffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+td {
+  color: #00ffcc;
+}
+
+tr:hover {
+  background-color: #002829;
+  transition: 0.3s;
+}
+
+@keyframes blink {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+/* Clignotement pour le bus qui arrive bientôt */
+.arriving-soon {
+  color: #ff4444;
+  font-weight: bold;
+  animation: blink 1s infinite;
+}
