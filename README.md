@@ -30,20 +30,41 @@ SmartBus-Station/
 └── README.md
 
 
+
+---
+
 ## 🐍 Scripts Python du projet
-- server.py – Serveur Flask (API + Web)
-Ce script est le cœur du backend. Il :
 
-Lance un serveur web avec Flask.
+### `server.py` – Serveur Flask (API + Web)
+Ce script est le **cœur du backend**. Il :
 
-Sert le fichier index.html en tant que page d’accueil.
+- Lance un serveur web avec Flask.
+- Sert le fichier `index.html` en tant que page d’accueil.
+- Expose une route `/station_data` pour fournir les données des bus au format JSON.
+- Trie et filtre les bus selon leur ETA (`eta_minutes`).
+- Affiche jusqu’à 4 bus dont l’ETA a changé d’au moins 1 minute.
 
-Expose une route /station_data pour fournir les données des bus au format JSON.
+### `simulator.py` – Générateur de données de bus
+Ce script **simule dynamiquement des données** d’arrivée de bus :
 
-Trie et filtre les bus selon leur ETA (eta_minutes), et n’affiche que les bus dont l’ETA a changé de manière significative (ou jusqu’à 4 bus).
+- Génére des bus avec identifiants (`bus_id`), lignes (`line`) et ETA.
+- Écrit les données dans `buses_data.json` (consommées par `server.py`).
+- Peut être exécuté en boucle ou en arrière-plan pour simuler un flux temps réel.
 
-- simulator.py – Générateur de données de bus
-Ce script simule en continu ou à intervalles réguliers des données d’arrivée de bus, qui sont enregistrées dans buses_data.json. Il permet de tester l’interface en générant dynamiquement des ETAs réalistes ou aléatoires.
+---
+
+## 🚀 Lancement du projet
+
+### 📦 Prérequis
+- Python 3.7 ou plus
+- `pip install flask flask-cors`
+
+### ▶️ Exécution du backend
+
+```bash
+cd backend
+python server.py
+
 
 Fonctionnalités typiques :
 
