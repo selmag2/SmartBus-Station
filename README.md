@@ -82,7 +82,7 @@ L'objectif est de modéliser un système proche de la réalité, alliant interfa
 GET /station_data
 Retourne les données des bus à afficher (jusqu’à 4 max).
 
-##🖥️ Visualisation des données (interface web)
+### 🖥️ Visualisation des données (interface web)
 Ouvre un navigateur web et accède à l’adresse :
 
 http://localhost:5000
