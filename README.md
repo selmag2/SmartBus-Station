@@ -21,8 +21,10 @@ Ce projet simule un panneau d’affichage dynamique pour une station de bus, aff
 ├── index.html # Interface web principale
 ├── script.js # Script JS pour requêter l'API et afficher les données
 ├── style.css # Feuille de style CSS pour l'interface
+
 ├── server.py # Serveur Flask (API + affichage web)
 ├── simulator.py # Générateur ou simulateur de données JSON
+
 └── README.md # Documentation du projet
 
 
