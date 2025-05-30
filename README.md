@@ -74,7 +74,6 @@ Génère des bus avec identifiants (bus_id), lignes (line) et ETA.
 
 Peut être exécuté en arrière-plan pour simuler un flux de données.
 
-
 ## Objectif 
 L'objectif est de modéliser un système proche de la réalité, alliant interface utilisateur intuitive, communication en temps réel et traitement intelligent des données, dans le but de démontrer les capacités d’un système embarqué de nouvelle génération dédié à l'information des voyageurs.
 
@@ -82,7 +81,7 @@ L'objectif est de modéliser un système proche de la réalité, alliant interfa
 GET /station_data
 Retourne les données des bus à afficher (jusqu’à 4 max).
 
-### 🖥️ Visualisation des données (interface web)
+### 🖥️ Visualisation des données (interface web) 
 Ouvre un navigateur web et accède à l’adresse :
 
 http://localhost:5000
