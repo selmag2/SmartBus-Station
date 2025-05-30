@@ -16,9 +16,9 @@ Ce projet simule un panneau d’affichage dynamique pour une station de bus, aff
 
 ## 📁 Structure du projet
 
-app.py # Serveur Flask (API + serveur de fichiers statiques)
-buses_data.json # Données simulées des bus (à jour régulièrement)
-static/
+- app.py # Serveur Flask (API + serveur de fichiers statiques)
+- buses_data.json # Données simulées des bus (à jour régulièrement)
+-static/
 │ └── index.html # Interface web affichant les bus
 └── README.md # Documentation du projet
 - Architecture Logicielle
