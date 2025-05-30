@@ -16,16 +16,18 @@ Ce projet simule un panneau d’affichage dynamique pour une station de bus, aff
 
 ## 📁 Structure du projet
 
-├── all_buses_debug.json # Données de simulation complète (debug)
-├── buses_data.json # Données en temps réel utilisées par l’interface
-├── index.html # Interface web principale
-├── script.js # Script JS pour requêter l'API et afficher les données
-├── style.css # Feuille de style CSS pour l'interface
-
-├── server.py # Serveur Flask (API + affichage web)
-├── simulator.py # Générateur ou simulateur de données JSON
-
-└── README.md # Documentation du projet
+SmartBus-Station/
+├── backend/
+│   ├── server.py
+│   └── simulator.py
+├── frontend/
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+├── data/
+│   ├── all_buses_debug.json
+│   └── buses_data.json
+└── README.md
 
 
 ## 🐍 Scripts Python du projet
