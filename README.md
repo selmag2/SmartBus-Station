@@ -55,31 +55,6 @@ Ce script **simule dynamiquement des données** d’arrivée de bus :
 
 ## 🚀 Lancement du projet
 
-### 📦 Prérequis
-- Python 3.7 ou plus
-- `pip install flask flask-cors`
-
-### ▶️ Exécution du backend
-
-```bash
-cd backend
-python server.py
-
-
-Fonctionnalités typiques :
-
-Génère des bus avec identifiants (bus_id), lignes (line) et ETA.
-
-Écrit les données dans buses_data.json (consommées par server.py).
-
-Peut être exécuté en arrière-plan pour simuler un flux de données.
-
-## Objectif 
-L'objectif est de modéliser un système proche de la réalité, alliant interface utilisateur intuitive, communication en temps réel et traitement intelligent des données, dans le but de démontrer les capacités d’un système embarqué de nouvelle génération dédié à l'information des voyageurs.
-
-###🔌 API REST
-GET /station_data
-Retourne les données des bus à afficher (jusqu’à 4 max).
 
 ### 🖥️ Visualisation des données (interface web) 
 Ouvre un navigateur web et accède à l’adresse :
@@ -93,3 +68,30 @@ Liste jusqu’à 4 bus avec leur numéro de ligne et leur temps estimé d’arri
 Les données sont mises à jour automatiquement toutes les quelques secondes via des requêtes vers l’API /station_data.
 
 Seuls les bus dont l’ETA a changé significativement sont rafraîchis, afin d’éviter un affichage instable
+
+### 📦 Prérequis
+- Python 3.7 ou plus
+- `pip install flask flask-cors`
+
+### ▶️ Exécution du backend
+
+```bash
+cd backend
+python server.py
+
+
+-Fonctionnalités typiques :
+
+Génère des bus avec identifiants (bus_id), lignes (line) et ETA.
+
+Écrit les données dans buses_data.json (consommées par server.py).
+
+Peut être exécuté en arrière-plan pour simuler un flux de données.
+
+
+##🔌 API REST
+GET /station_data
+Retourne les données des bus à afficher (jusqu’à 4 max).
+
+
+
