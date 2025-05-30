@@ -21,6 +21,6 @@ buses_data.json # Données simulées des bus (à jour régulièrement)
 static/
 │ └── index.html # Interface web affichant les bus
 └── README.md # Documentation du projet
-#Architecture Logicielle
-#Architecture matérielle
-#Résultats, Démonstration
+- Architecture Logicielle
+- Architecture matérielle
+- Résultats, Démonstration
